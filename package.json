@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EHenry92/Trip_Planner/issues"
   },
-  "homepage": "https://github.com/EHenry92/Trip_Planner#readme"
+  "homepage": "https://github.com/EHenry92/Trip_Planner#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
 }
