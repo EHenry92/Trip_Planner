@@ -552,7 +552,7 @@ const map = new mapboxgl.Map({
 // mdel.style.height = '39px';
 // mdel.style.backgroundImage = "url(http://)";
 // // // mdel.textContent = "🤚"
-let first = mdel('hotel', [-74.009151, 40.705086]);
+let first = mdel('activity', [-74.009151, 40.705086]);
 first.addTo(map);
 
 /***/ }),

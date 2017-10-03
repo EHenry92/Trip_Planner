@@ -7,7 +7,56 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
   }
+
+nav{
+  height: 40px;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+li{
+  width:30px;
+}
+#boxes  {
+  display:flex;
+  flex-direction: column;
+  width:25vw;
+  z-index: 1;
+  position: fixed;
+}
+#searchBox {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+#myBox {
+  background-color: yellow;
+  display:flex;
+  flex-direction: column;
+}
+select{
+  width: 15vw;
+}
+button{
+  height:2vw;
+  width: 2vw;
+  background-color: blue;
+}
+
+.wrapper {
+  display:flex;
+  justify-content: flex-end;
+}
+
 #map{
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
+  z-index: 0;
+}
+#boxHead{
+  background-color: blue;
 }
